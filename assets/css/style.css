@@ -1,0 +1,122 @@
+/* Find background image for all------ https://wallpaperplay.com/walls/full/b/a/7/144244.jpg
+figure out how to make box translucent------ https://www.w3schools.com/css/css_image_transparency.asp */
+/* play around with the colors of text and sizing so that the image and text line up well and make it still readable edit jumbotron to have other div in it to give it different properties */
+/* almost forgot to comment this out......everything disappeared oh no! */
+
+
+body {
+    background-image: url('../images/Disney Castle.jpg');
+    background-repeat: no-repeat;
+    font-family: 'Mouse Memoirs', sans-serif;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 60px;
+    color: red;
+}
+
+#jumbotron {
+    width: 35%;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+.black-background {
+    background-color: #000000;
+}
+
+.white {
+    color: white;
+    /* opacity: .75; */
+}
+
+.box {
+    margin: 0 auto;
+    text-align: center;
+    padding: 4%;
+    margin-top: 40%;
+    opacity: .8;
+    background-color: white;
+}
+
+.box2 {
+    margin: 0 auto;
+    text-align: center;
+    padding: 4%;
+}
+
+.wrongBox {
+    margin: 0 auto;
+    text-align: center;
+    padding: 4%;
+}
+
+label {
+    color: orange;
+}
+
+#answerScreen {
+    display: none;
+    background-image: url('../images/Disney Castle.jpg');
+    background-repeat: no-repeat;
+    width: 40%;
+    margin: 0 auto;
+    padding: 2%;
+    margin-top: 15%;
+    font-size: 21px;
+}
+
+#timesUp {
+    display: none;
+    background-image: url('../images/Disney Castle.jpg');
+    background-repeat: no-repeat;
+    width: 35%;
+    margin: 0 auto;
+    padding: 2%;
+    margin-top: 15%;
+    font-size: 21px;
+}
+
+.up {
+    color: red;
+}
+
+.timeRemain {
+    padding: 2%;
+    color: red;
+}
+
+.timeRemain #time-remain {
+    font-size: 60px;
+}
+
+body .container {
+    background-image: url('../images/Disney Castle.jpg');
+    height: 100%;
+    text-align: center;
+    display: none;
+    margin-bottom: 5%;
+    padding-bottom: 2%;
+    margin-top: 5%;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.questions {
+    font-size: 25px;
+    ]
+}
+
+.ques,
+label {
+    padding: 1%;
+}
+
+header {
+    font-size: 60px;
+    color: black;
+    margin-top: 2%;
+}
