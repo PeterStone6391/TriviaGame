@@ -20,7 +20,7 @@ h1 {
 }
 
 #jumbotron {
-  width: 35%;
+  width: 50%;
   margin: 0 auto;
   border-radius: 5px;
 }
@@ -56,29 +56,29 @@ h1 {
 }
 
 label {
-  color: orange;
+  color: blue;
 }
 
 #answerScreen {
   display: none;
-  background-image: url("../images/Disney Castle.jpg");
-  background-repeat: no-repeat;
+  opacity: 0.8;
+  background-color: white;
   width: 40%;
   margin: 0 auto;
   padding: 5%;
   margin-top: 15%;
-  font-size: 21px;
+  font-size: 18px;
 }
 
 #timesUp {
   display: none;
-  background-image: url("../images/Disney Castle.jpg");
-  background-repeat: no-repeat;
+  opacity: 0.8;
+  background-color: white;
   width: 35%;
   margin: 0 auto;
   padding: 5%;
   margin-top: 15%;
-  font-size: 21px;
+  font-size: 18px;
 }
 
 .up {
@@ -95,29 +95,31 @@ label {
 }
 
 body .container {
-  background-image: url("../images/Disney Castle.jpg");
+  opacity: 0.8;
+  background-color: white;
   height: 100%;
   text-align: center;
   display: none;
   margin-bottom: 5%;
-  padding-bottom: 2%;
+  padding-bottom: 5%;
   margin-top: 5%;
   border-radius: 5px;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 .questions {
-  font-size: 25px;
+  font-size: 18px;
 }
 
 .ques,
 label {
-  padding: 1%;
+  padding: 3%;
+  /* margin-right: 6%; */
 }
 
 header {
   font-size: 60px;
-  color: black;
+  color: red;
   margin-top: 2%;
 }
